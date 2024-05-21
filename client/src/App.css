@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 150px;
+  height: 90px;
+}
+
+.navigation {
+  background-color: rgb(197, 218, 245);
+  height: 100px;
+  font-weight: bold;
+  color: #000;
+}
+
+.navs {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(197, 218, 245);
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.main {
+  flex-grow: 1;
+  min-height: 500px;
+}
+
+.form-row {
+  background-color: rgb(246, 252, 255);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  background-color: rgb(197, 218, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(75, 73, 73);
+  height: auto;
+}
+
+.div-form {
+  border-style: solid;
+  border-width: thin;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border-color: rgb(149, 125, 55);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(107, 84, 16);
+  border-style: none;
+}
+
+.smalltext {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: small;
+}
+
+.userImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.sharePosts {
+  padding: 10px;
+  height: auto;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  border-color: #a6d49f;
+  text-align: center;
+}
+
+.inputPost {
+  margin-right: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #522a27;
+}
+.postButton {
+  background-color: #522a27;
+}
+
+.profPic {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}

@@ -1,0 +1,157 @@
+/* Main container for overall styling */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #938052;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #938052;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 2vw;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.form-container {
+  background-color: #dacd91;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.product-container {
+  background-color: #ede4bc;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info .contact-text {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.contact-icons {
+  vertical-align: middle;
+}
+
+.contact-button {
+  background-color: #8b4513; /* Brown color */
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #5c3317; /* Darker shade of brown on hover */
+}
+
+.footer {
+  text-align: center;
+  padding: 6px;
+  background-color: #836b3f;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+.Input {
+  width: 30vw;
+}
+
+.form2-cont {
+  background-color: #ede4bc;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(107, 84, 16);
+  border-style: none;
+  color: black;
+}
+
+.smalltext {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+.card {
+  width: 16rem;
+  margin-bottom: 95px;
+  background-color: rgba(224, 216, 181, 1);
+}
+
+table {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading-container {
+  display: flex;
+  background-color: #ede4bc;
+  justify-content: center;
+  color: rgb(107, 84, 16);
+}
+
+.order-container {
+  display: flex;
+  background-color: #ede4bc;
+  margin-top: 20px;
+  border-radius: 30px;
+  min-height: 200px;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.order-img {
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 50px;
+}
